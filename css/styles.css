@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 250px;
+  color: white;
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+img {
+  padding-left: 35px;
+  padding-top: 35px;
+}
+h1 {
+  padding-left: 35px;
+  font-size: 2rem;
+}
+p {
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 1.1rem;
+}
+button {  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px;
+  border-radius: 35px;
+  border-style: hidden;
+  background-color: white;
+}
+.main-box {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 450px;
+}
+.left-box {
+display: inline-block;
+background-color: #E38826;
+height: 450px;
+width: 300px;
+
+}
+.mid-box {
+display: inline-block;
+background-color: #006970;
+height: 450px;
+width: 300px;
+
+}
+.right-box {
+  display: inline-block;
+  background-color: #004241;
+  height: 450px;
+  width: 300px;
+
+}
+.attribution {
+  display: flex;
+  justify-content: center;
+margin-top: 40px;
+color: black;
+font-size: 2.2rem;
+}
+.left-button{
+  color: #E38826;
+}
+.mid-button {
+ color: #006970;
+}
+.right-button {
+ color: #004241;
+}
+.left-button:hover {
+  background-color: #E38826;
+}
+.mid-button:hover {
+  background-color: #006970;
+}
+.right-button:hover {
+  background-color: #004241;
+}
